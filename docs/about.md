@@ -17,7 +17,7 @@
     <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true" style="width:20px;height:20px;opacity:0.9;" xmlns="http://www.w3.org/2000/svg"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg>
     <span>LinkedIn</span>
   </a> -->
-  
+
   <!-- <a href="https://x.com/jrosseruk" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
     <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16" id="Twitter-X--Streamline-Bootstrap" style="width:20px;height:20px;opacity:0.9;"><path d="M12.6 0.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867 -5.07 -4.425 5.07H0.316l5.733 -6.57L0 0.75h5.063l3.495 4.633L12.601 0.75Zm-0.86 13.028h1.36L4.323 2.145H2.865z" stroke-width="1"></path></svg>
   <span>Twitter</span> -->
@@ -30,14 +30,12 @@
   </div>
 </div>
 
+I am an undergraduate student in **Computer Science** with a strong interest in **robotics, embodied AI, reinforcement learning, and intelligent systems**. My academic and project experience combines hands-on engineering practice with research-oriented exploration, especially in robot learning, Sim2Real deployment, SLAM navigation, and embedded robotic systems.
 
 
-I'm a 2nd year **DPhil student in Machine Learning at the University of Oxford**, supervised by Jakob Foerster and focusing on AI Security, Safety, and Interpretability. I'm best known for my **NeurIPS 2025 Spotlight paper AgentBreeder**, which explores evolutionary automated red team and blue team scaffold generation.
 
-I'm currently working on **[Infusion](https://arxiv.org/abs/2602.09987)** - a framework for shaping model behavior by editing training data via influence functions. I'm participating in **Neel Nanda's MATS 10.0 Exploration Phase** and recently served as a **Teaching Assistant for ARENA 7.0** (Mechanistic Interpretability week).
+Through projects involving **humanoid robots, quadruped platforms, and mobile manipulation**, I have gradually developed the ability to analyze and solve problems from both algorithmic and system-level perspectives. These experiences have strengthened my practical skills in robotics software, control, perception, hardware integration, and AI model deployment.
 
-Previously, I was a **Research Scientist Intern at Spotify** and worked with **UK AISI on agentic scaffolds for Inspect** as part of their Bounty Programme. I was also the founding Research Scientist at Convergence (acquired by Salesforce for est. $200M), contributing to Proxy, a state-of-the-art multimodal web agent with 100k+ users.
 
-I'm a member of LISA (London Initiative for Safe AI) and enjoy playing trumpet in a funk band, running bouldering socials, and helping new climbers get certified.
 
-P.S. There are some easter eggs on this website - find one and drop the emoji in your email subject line!
+Beyond technical implementation, I am also highly motivated by the broader goal of building intelligent robots that can operate reliably in real-world environments. I enjoy learning emerging technologies independently, turning ideas into working systems, and collaborating with others in project-based settings. In the future, I hope to further develop my research and engineering abilities at the intersection of **machine learning, robotics, and embodied intelligence**.

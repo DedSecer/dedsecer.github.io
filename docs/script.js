@@ -181,11 +181,34 @@ class NavigationHighlight {
             // Set initial active state based on URL hash only
             this.setInitialActiveState();
             
-            // Handle hash changes (but no scroll-based highlighting)
+            // Handle hash changes
             window.addEventListener('hashchange', () => {
                 this.handleHashChange();
             });
+            
+            // Set up scroll spy to highlight nav items on scroll
+            this.setupScrollSpy();
         }
+    }
+
+    setupScrollSpy() {
+        if (!('IntersectionObserver' in window)) return;
+        
+        // Create an observer that triggers when a section is in the top portion of the screen
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    this.highlightNavLink(entry.target.id);
+                    // Update URL without jumping
+                    history.replaceState(null, null, '#' + entry.target.id);
+                }
+            });
+        }, {
+            // Trigger when section top is between 100px and 60% from the top
+            rootMargin: '-100px 0px -60% 0px'
+        });
+        
+        this.sections.forEach(section => observer.observe(section));
     }
 
     setInitialActiveState() {
