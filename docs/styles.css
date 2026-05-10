@@ -1642,10 +1642,10 @@ html {
 
 .resource-card {
     background-color: var(--color-card-bg);
-    border: 1px solid var(--color-border);
+    border: 2px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
     border-radius: 0.75rem;
     overflow: hidden;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: all 0.2s ease;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -1653,8 +1653,9 @@ html {
 }
 
 .resource-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px var(--color-shadow);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--color-shadow);
+    border-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
 }
 
 .resource-preview {
