@@ -621,23 +621,24 @@ body {
     .mobile-nav-menu>a {
         font-size: 1.5rem !important;
         padding: 1rem 2rem !important;
-        border-radius: 0.5rem !important;
-        transition: opacity 0.2s ease !important;
+        border-radius: 0 !important;
+        transition: all 0.2s ease !important;
         text-align: center !important;
         min-width: 200px !important;
-        background-color: color-mix(in srgb, var(--color-accent) 10%, transparent) !important;
-        border: 1px solid var(--color-accent) !important;
-        color: var(--color-accent) !important;
+        background-color: transparent !important;
+        border: 3px solid transparent !important;
+        color: color-mix(in srgb, var(--color-global-text) 60%, transparent) !important;
         text-decoration: none !important;
         display: block !important;
         margin: 0 !important;
     }
 
     .mobile-nav-menu>a:hover {
-        background-color: var(--color-accent) !important;
-        color: var(--color-global-bg) !important;
-        transform: translateY(-2px) !important;
-        box-shadow: 0 4px 12px color-mix(in srgb, var(--color-accent) 30%, transparent) !important;
+        background-color: transparent !important;
+        color: var(--color-accent) !important;
+        border: 3px solid var(--color-accent) !important;
+        transform: none !important;
+        box-shadow: none !important;
         text-decoration: none !important;
     }
 }
@@ -1141,11 +1142,12 @@ button:focus-visible {
 /* Active navigation link styling */
 @media (max-width: 640px) {
     .mobile-nav-menu a.active {
-        background-color: var(--color-accent) !important;
-        color: var(--color-global-bg) !important;
-        border-color: var(--color-accent) !important;
-        transform: translateY(-2px) !important;
-        box-shadow: 0 4px 12px color-mix(in srgb, var(--color-accent) 30%, transparent) !important;
+        background-color: transparent !important;
+        color: var(--color-accent) !important;
+        border: 3px solid var(--color-accent) !important;
+        transform: none !important;
+        box-shadow: none !important;
+        text-decoration: none !important;
     }
 }
 
