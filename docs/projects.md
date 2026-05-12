@@ -9,7 +9,9 @@
         <div class="project-gallery">
             <img src="assets/project/Humanoid-Whole-Body-Control/cover.png" alt="Humanoid 1" loading="lazy"  style="object-fit: contain;">
         </div>
-        <p>Built a reinforcement learning pipeline for the Tienkung humanoid robot in Isaac Sim, achieving human-stylized locomotion via <strong>Adversarial Motion Priors (AMP)</strong>. Validated through Sim2Sim transfer before deploying to the physical robot via Sim2Real. Developed a <strong>Whole-Body Control (WBC)</strong> system that extracts skeletal poses from human motion videos, retargets joint trajectories onto the robot's kinematic structure, and trains RL policies to track full-body movements.</p>
+        <p>
+        Built a reinforcement learning pipeline for humanoid whole-body control in Isaac Sim, focusing on <strong>motion imitation</strong> and <strong>Sim2Real transfer</strong>. Developed a <strong>Whole-Body Control (WBC)</strong> framework that extracts human skeletal motion from videos, retargets trajectories to the humanoid robot, and trains RL policies to track full-body movements. Trained humanoid locomotion policies with <strong>Adversarial Motion Priors (AMP)</strong>, enabling natural and human-like behaviors, and deployed the controller from simulation to the physical robot after Sim2Sim validation.
+        </p>
         <div class="project-links">
         </div>
     </div>
@@ -22,7 +24,9 @@
             <img src="assets/project/education-robot/car.png" alt="STEM Education Robot Kit 1" loading="lazy">
             <img src="assets/project/education-robot/car2.png" alt="STEM Education Robot Kit 2" loading="lazy">
         </div>
-        <p>Led software development for a STEM education robot at a startup, taking ownership of the full software stack from low-level motor control to high-level task orchestration. Implemented <strong>motor drive and closed-loop control</strong> on ESP32, encapsulating chassis kinematics and servo/stepper motor libraries for modular control. On the perception and navigation side, leveraged <strong>RDK X3 with AprilTag</strong> for precise indoor localization and autonomous navigation, and developed <strong>AprilTag-based recognition and alignment</strong> for automated pick-and-place docking. Unified all subsystems into a <strong>state machine</strong> that robustly orchestrates the full mission workflow. The project shipped to mass production, delivering a complete and commercially viable product.</p>
+        <p>
+        Led software development for a STEM education robot product, covering <strong>embedded control</strong>, perception, and task orchestration. Implemented <strong>closed-loop motor control</strong> on ESP32 and developed modular chassis and actuator control libraries. Built an <strong>AprilTag-based localization and autonomous docking</strong> system on RDK X3, and integrated all subsystems through a robust <strong>state-machine architecture</strong>. The project was successfully shipped to <strong>mass production</strong> as a commercially deployed product.
+        </p>
         <div class="project-links">
         </div>
     </div>
@@ -37,7 +41,9 @@
             <img src="assets/project/gokart/gokart3.jpg" alt="Go-Kart 3" loading="lazy">
             <img src="assets/project/gokart/gokart4.jpg" alt="Go-Kart 4" loading="lazy">
         </div>
-        <p>Served as a teaching assistant at The Hong Kong University of Science and Technology (Guangzhou) Go-Kart Creation Camp, instructing secondary-school students on <strong>motor drive circuits, microcontroller fundamentals, and vehicle mechanical design</strong>. Guided students through MCU-based motor control, mechanical assembly, hardware debugging, and full-system integration — bridging theory to a complete working go-kart build.</p>
+        <p>
+        Served as a teaching assistant at the HKUST(GZ) Go-Kart Creation Camp, mentoring students in <strong>motor control</strong>, embedded systems, and vehicle mechanical design. Guided teams through hardware assembly, MCU-based motor control, debugging, and full-system integration to build fully functional electric go-karts, bridging engineering theory with hands-on robotics practice.
+        </p>
         <div class="project-links">
         </div>
     </div>
@@ -53,7 +59,9 @@
             <img src="assets/project/cathay/cathay3.png" alt="Cathay 3" loading="lazy">
             <img src="assets/project/cathay/cathay4.png" alt="Cathay 4" loading="lazy">
         </div>
-        <p>Designed the product and system architecture for a child-safety companion device, deploying an <strong>offline LLM on RDK X5 edge hardware</strong> integrated with IMU and biosensors for real-time emotion recognition. Engineered the end-to-end data flow connecting the edge device, Cloud Agent, Parent App, and Crew Dashboard, ensuring safety transparency and seamless communication. Applied <strong>GenAI and cloud-computing</strong> methodologies from AWS, Google Cloud, and Microsoft masterclasses to strengthen solution feasibility and scalability.</p>
+        <p>
+        Designed the system architecture for an <strong>edge-AI companion device</strong> on RDK X5 hardware, integrating online language models with IMU and biosensor data for real-time interaction and emotion recognition. Built the end-to-end communication pipeline connecting edge devices, cloud services, parent applications, and monitoring dashboards, enabling reliable and low-latency multi-device coordination.
+        </p>
         <div class="project-links">
         </div>
     </div>
@@ -67,7 +75,9 @@
             <img src="assets/project/RoboMaster/2.jpg" alt="RoboMaster 2" loading="lazy" style="object-fit: contain;">
             <img src="assets/project/RoboMaster/4.jpg" alt="RoboMaster 4" loading="lazy">
         </div>
-        <p>Contributed to the university RoboMaster team's engineering robot. Selected and assembled actuators to build a custom manipulator arm, then implemented <strong>inverse kinematics</strong> via the MoveIt framework in ROS for end-effector positioning. Designed a custom controller enabling intuitive <strong>teleoperation</strong> of the arm during competition tasks.</p>
+        <p>
+        Developed a robotic manipulator for the university RoboMaster engineering robot, implementing <strong>inverse kinematics</strong> and end-effector control through ROS and the <strong>MoveIt</strong> framework. Designed a custom <strong>teleoperation controller</strong> for intuitive manipulation during competition tasks, improving operational efficiency and control stability.
+        </p>
         <div class="project-links">
         </div>
     </div>
@@ -83,7 +93,9 @@
             <img src="assets/project/ICRA-Sim2Real-Challenge/2.png" alt="ICRA Sim2Real Challenge 2" loading="lazy">
             <img src="assets/project/ICRA-Sim2Real-Challenge/3.jpg" alt="ICRA Sim2Real Challenge 3" loading="lazy">
         </div>
-        <p>Developed an integrated perception-and-control pipeline for a mobile manipulator in simulation, combining <strong>visual perception</strong> with coordinated <strong>chassis and arm control</strong> to autonomously organize a cabinet and desktop environment. After validating task completion in simulation, transferred the full algorithm stack to a physical robot, addressing the Sim2Real gap to achieve reliable real-world execution.</p>
+        <p>
+        Developed an integrated <strong>perception-and-control pipeline</strong> for a mobile manipulator, combining visual perception with coordinated chassis and robotic arm control to perform autonomous object organization tasks in simulation. Transferred the full algorithm stack from simulation to a physical robot, achieving reliable <strong>Sim2Real deployment</strong> in real-world environments.
+        </p>
         <div class="project-links">
         </div>
     </div>
@@ -97,7 +109,9 @@
             <img src="assets/project/SLAM/dog.jpg" alt="SLAM 3" loading="lazy" style="object-fit: contain;">
             <img src="assets/project/SLAM/slam.jpg" alt="SLAM 4" loading="lazy">
         </div>
-        <p>Implemented a <strong>LiDAR-based SLAM</strong> system for simultaneous mapping and autonomous navigation, and deployed the full pipeline on a quadruped robot. Achieved robust mapping and path planning performance across both indoor and outdoor environments.</p>
+        <p>
+        Developed and deployed a <strong>LiDAR-based SLAM</strong> and autonomous navigation system on a quadruped robot, enabling real-time mapping, localization, and path planning across indoor and outdoor environments. Integrated the full navigation pipeline on the physical platform and achieved robust autonomous operation in complex scenes.
+        </p>
         <div class="project-links">
         </div>
     </div>
