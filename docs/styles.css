@@ -1580,6 +1580,134 @@ html {
 }
 
 /* ============================= */
+/* Highlights Carousel Component */
+/* ============================= */
+.reward-carousel-frame {
+    margin-top: 1.5rem;
+    border: 2px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
+    border-radius: 0.75rem;
+    background-color: var(--color-card-bg);
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+}
+
+.reward-carousel {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 1rem 0;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    perspective: 1000px;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.reward-carousel::-webkit-scrollbar {
+    height: 8px;
+    background-color: transparent;
+}
+
+.reward-carousel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+.reward-carousel:hover {
+    overflow-x: auto;
+    scrollbar-color: color-mix(in srgb, var(--color-accent) 55%, transparent) color-mix(in srgb, var(--color-border) 70%, transparent);
+}
+
+.reward-carousel:hover::-webkit-scrollbar-track {
+    background: color-mix(in srgb, var(--color-border) 70%, transparent);
+}
+
+.reward-carousel:hover::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--color-accent) 55%, transparent);
+}
+
+.reward-carousel:hover::-webkit-scrollbar-thumb:hover {
+    background: var(--color-accent);
+}
+
+.reward-track {
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+    transform-style: preserve-3d;
+    animation: reward-scroll var(--reward-scroll-duration, 60s) linear infinite;
+}
+
+.reward-carousel:hover .reward-track {
+    animation-play-state: paused;
+}
+
+.reward-track img {
+    width: auto;
+    height: 170px;
+    flex: 0 0 auto;
+    object-fit: contain;
+    border: 2px solid color-mix(in srgb, var(--color-accent-2) 15%, transparent);
+    border-radius: 0.75rem;
+    background-color: var(--color-border);
+    box-shadow: 0 2px 10px color-mix(in srgb, var(--color-shadow) 45%, transparent);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reward-track img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px color-mix(in srgb, var(--color-shadow) 70%, transparent);
+}
+
+@keyframes reward-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-50% - 0.5rem));
+    }
+}
+
+@media (max-width: 640px) {
+    .reward-carousel-frame {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;
+    }
+
+    .reward-carousel {
+        -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+        mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+    }
+
+    .reward-track {
+        gap: 0.75rem;
+        --reward-scroll-duration: 45s;
+    }
+
+    .reward-track img {
+        width: auto;
+        height: 145px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reward-carousel {
+        overflow-x: auto;
+    }
+
+    .reward-track {
+        animation: none;
+        width: auto;
+        padding: 0 1rem;
+    }
+}
+
+/* ============================= */
 /* Resources Grid Component      */
 /* ============================= */
 .resources-grid {

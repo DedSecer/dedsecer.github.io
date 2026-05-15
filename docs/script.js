@@ -499,6 +499,46 @@ class MarkdownLoader {
     });
 })();
 
+class RewardCarousel {
+    constructor() {
+        this.track = document.querySelector('.reward-track');
+        this.originalImages = [];
+        this.init();
+    }
+
+    init() {
+        if (!this.track) return;
+        this.originalImages = Array.from(this.track.querySelectorAll('img:not([aria-hidden="true"])'));
+        if (this.originalImages.length === 0) return;
+        this.randomizeImageOrder();
+    }
+
+    randomizeImageOrder() {
+        const shuffledImages = this.shuffle(this.originalImages);
+        const trackImages = [...shuffledImages, ...shuffledImages].map((image, index) => {
+            const clone = image.cloneNode(true);
+            if (index >= shuffledImages.length) {
+                clone.alt = '';
+                clone.setAttribute('aria-hidden', 'true');
+            } else {
+                clone.removeAttribute('aria-hidden');
+            }
+            return clone;
+        });
+
+        this.track.replaceChildren(...trackImages);
+    }
+
+    shuffle(images) {
+        const shuffled = images.slice();
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+}
+
 // Initialize all functionality when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Initialize all components
@@ -511,6 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     new LazyImageLoader();
     new MarkdownLoader();
+    new RewardCarousel();
     
     // Apply hover effect to all 'b' letters on initial content
     if (typeof window.applyBHoverEffect === 'function') {
