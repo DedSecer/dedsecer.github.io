@@ -63,6 +63,7 @@
         Designed the system architecture for an <strong>edge-AI companion device</strong> on RDK X5 hardware, integrating online language models with IMU and biosensor data for real-time interaction and emotion recognition. Built the end-to-end communication pipeline connecting edge devices, cloud services, parent applications, and monitoring dashboards, enabling reliable and low-latency multi-device coordination.
         </p>
         <div class="project-links">
+            <a href="https://github.com/DedSecer/Captaion-Milo-web" target="_blank" rel="noopener">Code(UI)</a>
         </div>
     </div>
     <div class="project-card">
@@ -97,6 +98,8 @@
         Developed an integrated <strong>perception-and-control pipeline</strong> for a mobile manipulator, combining visual perception with coordinated chassis and robotic arm control to perform autonomous object organization tasks in simulation. Transferred the full algorithm stack from simulation to a physical robot, achieving reliable <strong>Sim2Real deployment</strong> in real-world environments.
         </p>
         <div class="project-links">
+            <a href="https://github.com/sztu-sim2real/ICRA2024-Sim2Real-AXS" target="_blank" rel="noopener">Code</a>
+            <a href="http://www.sim2real.net/track/track?nav=AXS2024&type=nav&t=1778836433281" target="_blank" rel="noopener">Website</a>
         </div>
     </div>
     <div class="project-card">
@@ -113,6 +116,8 @@
         Developed and deployed a <strong>LiDAR-based SLAM</strong> and autonomous navigation system on a quadruped robot, enabling real-time mapping, localization, and path planning across indoor and outdoor environments. Integrated the full navigation pipeline on the physical platform and achieved robust autonomous operation in complex scenes.
         </p>
         <div class="project-links">
+            <a href="https://github.com/DedSecer/go1_navigation" target="_blank" rel="noopener">Code(g1)</a>
+            <a href="https://github.com/DedSecer/coffee_nav" target="_blank" rel="noopener">Code(lite3)</a>
         </div>
     </div>
 
