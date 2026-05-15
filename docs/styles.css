@@ -496,7 +496,7 @@ body {
     grid-template-columns: auto 1fr minmax(0, auto);
     grid-template-rows: auto auto;
     grid-template-areas:
-        "logo title controls"
+        "logo title ."
         "logo nav controls";
     align-items: center;
     column-gap: 1rem;
