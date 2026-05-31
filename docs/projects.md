@@ -17,6 +17,21 @@
     </div>
     <div class="project-card">
         <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; flex-wrap: wrap;">
+            <h3 style="margin: 0; margin-right: 1rem;">Morphology-Aware Quadrupedal Locomotion</h3>
+            <span style="font-size: 0.875rem; color: var(--color-accent); font-family: 'JetBrains Mono', monospace;">May 2026</span>
+        </div>
+        <div class="project-gallery">
+            <img src="assets/project/MAQL/1.jpg" alt="MAQL 1" loading="lazy">
+            <img src="assets/project/MAQL/2.png" alt="MAQL 2" loading="lazy" style="object-fit: contain;">
+        </div>
+        <p>
+        Collaborated with senior researchers at <strong>HKUST(GZ)</strong> on reinforcement learning-based quadruped locomotion under embodiment uncertainty. The project focused on morphology adaptation through per-limb randomization, target-height conditioning, proprioceptive leg-length inference, and robustness evaluation across A1 simulations and Unitree Go2.
+        </p>
+        <div class="project-links">
+        </div>
+    </div>
+    <div class="project-card">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; flex-wrap: wrap;">
             <h3 style="margin: 0; margin-right: 1rem;">STEM Education Robot Kit</h3>
             <span style="font-size: 0.875rem; color: var(--color-accent); font-family: 'JetBrains Mono', monospace;">2025 – 2026</span>
         </div>

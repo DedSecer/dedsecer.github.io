@@ -16,9 +16,20 @@
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
+      <span class="timeline-org">HKUST(GZ) Quadrupedal Locomotion Research</span>
+      <span class="timeline-role">Research Collaborator</span>
+      <span class="timeline-dates">May 2026</span>
+    </div>
+    <div class="timeline-meta">Reinforcement Learning • Morphology Adaptation • Legged Locomotion</div>
+    <div class="timeline-desc">Collaborated with senior researchers on reinforcement learning-based quadruped locomotion.</div>
+  </div>
+
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+    <div class="timeline-header">
       <span class="timeline-org">STEM Education Robot Kit</span>
       <span class="timeline-role">Robotics Developer / Founding Team</span>
-      <span class="timeline-dates">Dec 2025 – <strong class="text-accent">Present</strong></span>
+      <span class="timeline-dates">Dec 2025 – May 2026</span>
     </div>
     <div class="timeline-meta">Robotics Education • Embedded Systems • Product Development</div>
     <div class="timeline-desc">Developed educational robot systems from prototype to small-scale production, covering embedded control, sensor integration, robot assembly, and student-facing deployment.</div>
