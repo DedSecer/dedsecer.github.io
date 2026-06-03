@@ -16,7 +16,7 @@
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">HKUST(GZ) Quadrupedal Locomotion Research</span>
+      <span class="timeline-org">The Hong Kong University of Science and Technology (Guangzhou)</span>
       <span class="timeline-role">Research Collaborator</span>
       <span class="timeline-dates">May 2026</span>
     </div>

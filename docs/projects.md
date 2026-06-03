@@ -10,7 +10,7 @@
             <img src="assets/project/Humanoid-Whole-Body-Control/cover.png" alt="Humanoid 1" loading="lazy"  style="object-fit: contain;">
         </div>
         <p>
-        Built a reinforcement learning pipeline for humanoid whole-body control in Isaac Sim, focusing on <strong>motion imitation</strong> and <strong>Sim2Real transfer</strong>. Developed a <strong>Whole-Body Control (WBC)</strong> framework that extracts human skeletal motion from videos, retargets trajectories to the humanoid robot, and trains RL policies to track full-body movements. Trained humanoid locomotion policies with <strong>Adversarial Motion Priors (AMP)</strong>, enabling natural and human-like behaviors, and deployed the controller from simulation to the physical robot after Sim2Sim validation.
+        Built an Isaac Sim reinforcement learning pipeline for humanoid whole-body control, covering <strong>motion imitation</strong>, human-to-robot retargeting, <strong>AMP</strong>-based locomotion training, Sim2Sim validation, and <strong>Sim2Real transfer</strong>.
         </p>
         <div class="project-links">
         </div>
@@ -25,7 +25,7 @@
             <img src="assets/project/MAQL/2.png" alt="MAQL 2" loading="lazy" style="object-fit: contain;">
         </div>
         <p>
-        Collaborated with senior researchers at <strong>HKUST(GZ)</strong> on reinforcement learning-based quadruped locomotion under embodiment uncertainty. The project focused on morphology adaptation through per-limb randomization, target-height conditioning, proprioceptive leg-length inference, and robustness evaluation across A1 simulations and Unitree Go2.
+        Focused on reinforcement learning-based quadruped locomotion under embodiment uncertainty, including morphology adaptation through per-limb randomization, target-height conditioning, proprioceptive leg-length inference, and robustness evaluation across A1 simulations and Unitree Go2 hardware.
         </p>
         <div class="project-links">
         </div>
