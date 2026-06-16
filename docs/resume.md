@@ -3,7 +3,9 @@
 <div class="timeline">
 
   <div class="timeline-item">
-    <span class="timeline-dot"></span>
+    <span class="timeline-icon brand-sztu">
+      <img src="assets/logos/sztu_logo.svg" alt="Shenzhen Technology University Badge" />
+    </span>
     <div class="timeline-header">
       <span class="timeline-org">Shenzhen Technology University</span>
       <span class="timeline-role">B.Eng. in Computer Science and Technology</span>
@@ -14,7 +16,9 @@
   </div>
 
   <div class="timeline-item">
-    <span class="timeline-dot"></span>
+    <span class="timeline-icon brand-hkust">
+      <img src="assets/logos/hkust_logo.svg" alt="Hong Kong University of Science and Technology Symbol" />
+    </span>
     <div class="timeline-header">
       <span class="timeline-org">The Hong Kong University of Science and Technology (Guangzhou)</span>
       <span class="timeline-role">Research Collaborator & Teaching Assistant</span>
@@ -36,7 +40,9 @@
   </div>
 
   <div class="timeline-item">
-    <span class="timeline-dot"></span>
+    <span class="timeline-icon brand-cathay">
+      <img src="assets/logos/cathay_logo.svg" alt="Cathay Pacific Logo" />
+    </span>
     <div class="timeline-header">
       <span class="timeline-org">Cathay Pacific Hackathon 2025</span>
       <span class="timeline-role">Tech Lead — Finalist (Top 20 / 100+)</span>

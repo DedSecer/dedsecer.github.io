@@ -1791,3 +1791,97 @@ html {
         padding: 0.5rem;
     }
 }
+
+/* ============================= */
+/* Resume Timeline Icons         */
+/* ============================= */
+.timeline-icon {
+    position: absolute;
+    --icon-size: 3.0rem;
+    left: calc((var(--line-x) - var(--gutter)) + ((var(--line-w) - var(--icon-size)) / 2));
+    top: 0.1rem;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    border-radius: 9999px;
+    background: var(--color-card-bg);
+    border: 2px solid var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-accent);
+    z-index: 2;
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-accent) 8%, transparent);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+
+
+.timeline-icon img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.25s ease;
+}
+
+.timeline-icon.brand-sztu,
+.timeline-icon.brand-hkust,
+.timeline-icon.brand-cathay {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.timeline-icon.brand-sztu img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    transform: scale(0.8);
+}
+
+.timeline-icon.brand-hkust img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+    transform: scale(1.0);
+}
+
+.timeline-icon.brand-cathay img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: none !important;
+    max-height: none !important;
+    width: auto !important;
+    height: 100% !important;
+    transform-origin: 5.814% 50%;
+    transform: translate(1.163%, 0) scale(0.70);
+}
+
+/* Hover micro-interactions */
+.timeline-item:hover .timeline-icon {
+    transform: translateY(-2px) scale(1.06);
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--color-accent) 12%, transparent),
+        0 8px 20px color-mix(in srgb, var(--color-shadow) 20%, transparent);
+}
+
+.timeline-item:hover .timeline-icon.brand-sztu,
+.timeline-item:hover .timeline-icon.brand-hkust,
+.timeline-item:hover .timeline-icon.brand-cathay {
+    box-shadow: none;
+}
+
+
+
+.timeline-item:hover .timeline-icon.brand-sztu img {
+    transform: scale(0.85);
+}
+
+.timeline-item:hover .timeline-icon.brand-hkust img {
+    transform: scale(1.06);
+}
+
+.timeline-item:hover .timeline-icon.brand-cathay img {
+    transform: translate(1.163%, 0) scale(0.75);
+}
