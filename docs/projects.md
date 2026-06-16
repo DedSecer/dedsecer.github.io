@@ -40,7 +40,7 @@
             <img src="assets/project/education-robot/car2.png" alt="STEM Education Robot Kit 2" loading="lazy">
         </div>
         <p>
-        Led software development for a STEM education robot product, covering <strong>embedded control</strong>, perception, and task orchestration. Implemented <strong>closed-loop motor control</strong> on ESP32 and developed modular chassis and actuator control libraries. Built an <strong>AprilTag-based localization and autonomous docking</strong> system on RDK X3, and integrated all subsystems through a robust <strong>state-machine architecture</strong>. The project was successfully shipped to <strong>mass production</strong> as a commercially deployed product.
+        Co-founded a startup to build an <strong>ROS-based education robot</strong> paired with a custom <strong>web visual programming platform</strong> (connected via <strong>rosbridge</strong>), with <strong>closed-loop motor control</strong> on ESP32, <strong>AprilTag-based localization</strong> on RDK X3, and a modular <strong>state-machine</strong> for task orchestration. Iterated through pilot classes, expo demos, and hands-on student testing to reach mass production — now <strong>commercially deployed to institutions nationwide</strong>.
         </p>
         <div class="project-links">
         </div>
@@ -64,7 +64,7 @@
     </div>
     <div class="project-card">
         <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; flex-wrap: wrap;">
-            <h3 style="margin: 0; margin-right: 1rem;">Cathay Hackathon — Edge AI Companion</h3>
+            <h3 style="margin: 0; margin-right: 1rem;">Cathay Pacific Hackathon 2025 — Captain Milo</h3>
             <span style="font-size: 0.875rem; color: var(--color-accent); font-family: 'JetBrains Mono', monospace;">Nov 2025</span>
         </div>
         <div class="project-gallery">
@@ -75,7 +75,7 @@
             <img src="assets/project/cathay/cathay4.png" alt="Cathay 4" loading="lazy">
         </div>
         <p>
-        Designed the system architecture for an <strong>edge-AI companion device</strong> on RDK X5 hardware, integrating online language models with IMU and biosensor data for real-time interaction and emotion recognition. Built the end-to-end communication pipeline connecting edge devices, cloud services, parent applications, and monitoring dashboards, enabling reliable and low-latency multi-device coordination.
+        An edge-AI companion device providing <strong>emotional support for unaccompanied children</strong> during flights. Features a <strong>hybrid cloud-edge architecture</strong> on RDK X5 with on-device inference for privacy and cloud LLM for <strong>emotion-adaptive dialogue</strong>. Integrates <strong>multilingual ASR/TTS</strong> (Cantonese, English, Mandarin), real-time parental alerts via MQTT, and a crew monitoring dashboard. Delivered as a working <strong>live demo</strong> with 3D-printed prototype in a 48-hour sprint.
         </p>
         <div class="project-links">
             <a href="https://github.com/DedSecer/Captaion-Milo-web" target="_blank" rel="noopener">Code(UI)</a>
