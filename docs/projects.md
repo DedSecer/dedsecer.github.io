@@ -4,7 +4,7 @@
     <div class="project-card">
         <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; flex-wrap: wrap;">
             <h3 style="margin: 0; margin-right: 1rem;">Humanoid Whole-Body Control</h3>
-            <span style="font-size: 0.875rem; color: var(--color-accent); font-family: 'JetBrains Mono', monospace;">2026 – Present</span>
+            <span style="font-size: 0.875rem; color: var(--color-accent); font-family: 'JetBrains Mono', monospace;">Mar 2026 – Present</span>
         </div>
         <div class="project-gallery">
             <img src="assets/project/Humanoid-Whole-Body-Control/cover.png" alt="Humanoid 1" loading="lazy"  style="object-fit: contain;">
@@ -40,7 +40,7 @@
             <img src="assets/project/education-robot/car2.png" alt="STEM Education Robot Kit 2" loading="lazy">
         </div>
         <p>
-        Co-founded a startup to build an <strong>ROS-based education robot</strong> paired with a custom <strong>web visual programming platform</strong> (connected via <strong>rosbridge</strong>), with <strong>closed-loop motor control</strong> on ESP32, <strong>AprilTag-based localization</strong> on RDK X3, and a modular <strong>state-machine</strong> for task orchestration. Iterated through pilot classes, expo demos, and hands-on student testing to reach mass production — now <strong>commercially deployed to institutions nationwide</strong>.
+        Co-founded a startup to build an <strong>ROS-based education robot</strong> paired with a custom <strong>web visual programming platform</strong> (connected via rosbridge), with <strong>closed-loop motor control</strong> on ESP32, <strong>AprilTag-based localization</strong> on RDK X3, and a modular <strong>state-machine</strong> for task orchestration. Iterated through pilot classes, expo demos, and hands-on student testing to reach mass production — now <strong>commercially deployed to institutions nationwide</strong>.
         </p>
         <div class="project-links">
         </div>
